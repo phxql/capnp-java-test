@@ -5,9 +5,9 @@ $Java.package("de.mkammerer.capnp.test");
 $Java.outerClassname("Capnp");
 
 struct Person {
-	firstName @0: Text;
-	lastName @1: Text;
-	address @2: Address;
+    firstName @0: Text;
+    lastName @1: Text;
+    address @2: Address;
 }
 
 struct Address {
